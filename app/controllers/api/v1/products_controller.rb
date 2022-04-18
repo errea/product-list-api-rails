@@ -33,4 +33,14 @@ end
         render json: {error: "Product not found"}
     end
   end
+
+private 
+  def prod_params
+    params.require(:product).permit([
+      :name,
+      :brand,
+      :price,
+      :description,
+    ])
+  end
 end
