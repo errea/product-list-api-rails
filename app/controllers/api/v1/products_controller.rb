@@ -27,9 +27,9 @@ end
 # otherwise we render an error object.
   def show
     product = Product.find_by(id: prams[:id])
-    if product 
+    if product
         render json: product, status: 200
-    else 
+    else
         render json: {error: "Product not found"}
     end
   end
