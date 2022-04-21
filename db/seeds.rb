@@ -51,4 +51,10 @@ Product.create([
   description: "Smartphone and TV intelligent interaction,A new seamless way to enjoy media.
 Amaz Life App delivers a fully featured immerisive experience with your Amaz Smart TV, All at palm of your hands.Hotspot Screen MirroringJust with an easy click, Amaz Smart TV allows you to mirror your mobile device to your TV screen using your mobile hotspot without consuming much mobile data",
  },
+{ 
+  name: "Hinese 43 inch Smart TV- Dual Screen",
+  brand: "Hinese",
+  price: "$4000",
+  description: "Smartphone and TV intelligent.Amaz Life App delivers a fully featured immerisive experience with your Amaz Smart TV",
+ },
 ])
